@@ -1,0 +1,54 @@
+
+//商品是涉及多层结构的。比如：家装->住宅家具->床上用品
+CREATE TABLE `commodity_classification` (
+	`Classify_ID` INT(11) NOT NULL AUTO_INCREMENT,
+	`Good_kinds_Name` VARCHAR(50) NULL DEFAULT '',
+	`Upper_ID` INT(11) NULL DEFAULT '0',
+	`Upper_Name` VARCHAR(50) NULL DEFAULT '',
+	`Description` VARCHAR(100) NULL DEFAULT '',
+	PRIMARY KEY (`Classify_ID`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=63
+;
+
+//商品的数据库
+CREATE TABLE `commodity_list` (
+	`Good_ID` VARCHAR(50) NOT NULL DEFAULT '',
+	`Classify_ID` INT(11) NULL DEFAULT '0',
+	`Classify_Description` VARCHAR(150) NULL DEFAULT '',
+	`Good_Brand` VARCHAR(50) NULL DEFAULT '',
+	`Good_Name` VARCHAR(200) NULL DEFAULT '',
+	`Good_Price` VARCHAR(50) NULL DEFAULT '',
+	`Store_Add` VARCHAR(100) NULL DEFAULT '',
+	`Monthsale_Num` INT(11) NULL DEFAULT '0',
+	`Color_Classification` VARCHAR(500) NULL DEFAULT '',
+	`Comment_Num` INT(11) NULL DEFAULT '0',
+	`Good_AfterRate` VARCHAR(50) NULL DEFAULT '',
+	`IndustryCompare` VARCHAR(50) NULL DEFAULT '',
+	`Good_Link` VARCHAR(100) NULL DEFAULT '',
+	`Store_Name` VARCHAR(100) NULL DEFAULT '',
+	`Store_Link` VARCHAR(100) NULL DEFAULT '',
+	`Good_Hot` INT(11) NULL DEFAULT '0',
+	`Store_Age` VARCHAR(50) NULL DEFAULT '',
+	`Seller_Credit` VARCHAR(50) NULL DEFAULT '',
+	`Ishas_License` INT(11) NULL DEFAULT '0',
+	`DescriptionSituation` DOUBLE NULL DEFAULT '0',
+	`ServiceAttitude` DOUBLE NULL DEFAULT '0',
+	`LogisticsService` DOUBLE NULL DEFAULT '0',
+	`Size` VARCHAR(200) NULL DEFAULT '',
+	PRIMARY KEY (`Good_ID`),
+	INDEX `FK_Commodity_list_Commodity_classification` (`Classify_ID`),
+	CONSTRAINT `commodity_list_ibfk_1` FOREIGN KEY (`Classify_ID`) REFERENCES `commodity_classification` (`Classify_ID`),
+	CONSTRAINT `commodity_list_ibfk_2` FOREIGN KEY (`Classify_ID`) REFERENCES `commodity_classification` (`Classify_ID`)
+)
+COLLATE='utf8_general_ci'
+ENGINE=InnoDB
+;
+
+//商品测试数据
+
+INSERT INTO `commodity_list` (`Good_ID`, `Classify_ID`, `Classify_Description`, `Good_Brand`, `Good_Name`, `Good_Price`, `Store_Add`, `Monthsale_Num`, `Color_Classification`, `Comment_Num`, `Good_AfterRate`, `IndustryCompare`, `Good_Link`, `Store_Name`, `Store_Link`, `Good_Hot`, `Store_Age`, `Seller_Credit`, `Ishas_License`, `DescriptionSituation`, `ServiceAttitude`, `LogisticsService`, `Size`) VALUES
+	('tb10025584930', 15, 'GroundFloor:Furniture>HomeFurniture>High-lowBed', '一品木舍', '广州榉木家具-进口榉木-双层床-上下床-子母床-高低床-', '2600.00 - 3228.00', '广东省广州市', 0, '上1.0+下1.2+无抽屉、上1.2+下1.5+无抽屉、上1.0+下1.2+抽屉、1.2+下1.5+有抽屉、', 0, '0.00%', '-4.25%', 'http://item.taobao.com/item.html?id=10025584930', '一品木舍家具', 'https://shop65772677.taobao.com', 22, '无', '2个蓝钻', 0, 3.6, 4.3, 4.3, '无'),
+	('tb10085076696', 15, 'GroundFloor:Furniture>HomeFurniture>High-lowBed', '无', '特价促销实木上下床松木床双层床员工床宿舍床公寓床子母床上下铺', '750.00 - 1200.00', '北京北京市', 0, '上下90*1.9、上90 下1.2、上90 下1.5、上1.2下1.5、上下1.2、', 0, '0.00%', '-4.23%', 'http://item.taobao.com/item.html?id=10085076696', '欣隆家具', 'https://xinlongjiaj.taobao.com', 1, '无', '3个红心', 0, 4.8, 4.8, 5, '无')
