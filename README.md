@@ -4,5 +4,7 @@
 #### （一）[项目框架整合构建](http://blog.csdn.net/Jack__Frost/article/details/68932117)
 #### （二）[建立商品数据库和Lucene的搭建](http://blog.csdn.net/jack__frost/article/details/68947868)
 ***
+### 使用姿势：请阅读使用demo必读文件《使用前必读！》
+***
 ### 联系方式：
 #### 邮箱：jackfrost@fuzhufuzhu.com
