@@ -1,0 +1,43 @@
+//用户表。
+CREATE TABLE IF NOT EXISTS user(
+id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+account VARCHAR(255) DEFAULT NULL,
+avatar VARCHAR(255) DEFAULT NULL,
+pay_money bigint NOT NULL DEFAULT '0',
+country VARCHAR(255) DEFAULT NULL,
+create_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+score bigint NOT NULL DEFAULT '0',
+latitude double DEFAULT NULL,
+longitudu double DEFAULT NULL,
+province VARCHAR(255) DEFAULT NULL,
+password VARCHAR(255) NULL DEFAULT NULL,
+sex VARCHAR(255) DEFAULT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+//积分记录表
+CREATE TABLE IF NOT EXISTS score(
+id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+change_type VARCHAR(255) DEFAULT NULL,
+create_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+score int DEFAULT NULL,
+user_id bigint DEFAULT NULL,
+foreign key(user_id) references user(id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+//禁言表：
+CREATE TABLE IF NOT EXISTS gag(
+id bigint NOT NULL AUTO_INCREMENT PRIMARY KEY,
+create_time timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+gag_time date DEFAULT NULL,
+user_id bigint DEFAULT NULL,
+foreign key(user_id) references user(id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+//拉黑表
+CREATE TABLE IF NOT EXISTS `black_list` (
+  `id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `black_user_id` bigint(20) DEFAULT NULL,
+  `user_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+

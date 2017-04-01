@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fuzhu.dao.GagDao">
+    <insert id="insertGag" parameterType="com.fuzhu.entity.Gag">
+        INSERT INTO gag (gag_time,user_id)
+        VALUES (#{gagTime},#{user.id})
+    </insert>
+    <select id="findByUserId" resultType="com.fuzhu.entity.Gag" parameterType="long">
+        SELECT
+              *
+        FROM
+              gag
+        WHERE
+              user_id = #{id}
+    </select>
+</mapper>
