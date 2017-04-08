@@ -10,6 +10,8 @@ import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import redis.clients.jedis.ShardedJedis;
+import redis.clients.jedis.ShardedJedisPool;
 
 import java.util.Date;
 
@@ -24,6 +26,8 @@ public class MyBatisTest {
     private ScoreDao scoreDao;
     @Autowired
     private GagDao gagDao;
+    private ShardedJedisPool shardedJedisPool;
+    private ShardedJedis jedis;
 
     @Test
     public void testAddScore() {
@@ -48,5 +52,8 @@ public class MyBatisTest {
         gag.setUser(user);
         int insertSuccess = gagDao.insertGag(gag);
         System.out.print("insert :" + insertSuccess);
+    }
+    @Test
+    public void testRedisRank(){
     }
 }

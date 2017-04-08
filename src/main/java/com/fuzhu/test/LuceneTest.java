@@ -1,10 +1,19 @@
 package com.fuzhu.test;
 
 import org.apache.lucene.analysis.Analyzer;
+import org.apache.lucene.analysis.standard.StandardAnalyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.document.Field;
+import org.apache.lucene.index.CorruptIndexException;
+import org.apache.lucene.index.IndexReader;
 import org.apache.lucene.index.IndexWriter;
 import org.apache.lucene.index.IndexWriterConfig;
+import org.apache.lucene.queryparser.classic.ParseException;
+import org.apache.lucene.queryparser.classic.QueryParser;
+import org.apache.lucene.search.IndexSearcher;
+import org.apache.lucene.search.Query;
+import org.apache.lucene.search.ScoreDoc;
+import org.apache.lucene.search.TopDocs;
 import org.apache.lucene.store.Directory;
 import org.apache.lucene.store.FSDirectory;
 import org.apache.lucene.store.RAMDirectory;
@@ -56,8 +65,42 @@ public class LuceneTest {
                 }
             }
         }
+    }
+    /*
+        搜索
+     */
+    public void search(){
+        try {
+            //1.创建Directory
+            Directory directory = FSDirectory.open(new File("F:/lucene/index01"));//索引创建在硬盘上。
+            //2.创建 IndexReader
+            IndexReader reader = IndexReader.open(directory);
+            //3.根据IndexReader创建IndexSearcher
+            IndexSearcher searcher = new IndexSearcher(reader);
+            //4.创建搜索的Query
+            //创建parser来确定要搜索文件的内容，第二个参数表示搜索的域
+            QueryParser parser =new QueryParser(Version.LUCENE_44,"content",new StandardAnalyzer(Version.LUCENE_44));
+            //创建query，表示搜索域为content中包含java的文档。java是要搜索的东东
+            Query query = parser.parse("java");
+            //5.根据seacher搜索兵器而返回TopDosc。比如搜索10条
+            TopDocs tds =searcher.search(query,10);
+            //6.根据TopDocs获取ScoreDoc对象。scoreDocs为所有文档所存的id号
+            ScoreDoc[] sds = tds.scoreDocs;
+            for (ScoreDoc sd:sds){
+                //7.根据search和scordDoc对象获取具体的Docement对象。搜索文档id得到document对象，获取那篇文档，文档id就是sd.doc
+                Document d = searcher.doc(sd.doc);
+                //8.根据Document对象获取需要的值。
+                System.out.println(d.get("filename")+"["+d.get("path")+"]");
+            }
 
-
-
+            //9.关闭reader
+            reader.close();
+        }catch (CorruptIndexException e){
+            e.printStackTrace();
+        }catch (IOException e){
+            e.printStackTrace();
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
     }
 }

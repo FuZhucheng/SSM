@@ -150,21 +150,45 @@
     </dependency>
 
     <!-- lucene核心包 -->
-    <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-core</artifactId>
-      <version>4.4.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.lucene</groupId>
-      <artifactId>lucene-queryparser</artifactId>
-      <version>4.4.0</version>
-    </dependency>
+    <!-- lucene -->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.lucene</groupId>-->
+      <!--<artifactId>lucene-core</artifactId>-->
+      <!--<version>4.4.0</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.lucene</groupId>-->
+      <!--<artifactId>lucene-queryparser</artifactId>-->
+      <!--<version>4.4.0</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.lucene</groupId>-->
+      <!--<artifactId>lucene-analyzers-common</artifactId>-->
+      <!--<version>4.4.0</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.lucene</groupId>-->
+      <!--<artifactId>lucene-highlighter</artifactId>-->
+      <!--<version>4.4.0</version>-->
+    <!--</dependency>-->
+    <!--<dependency>-->
+      <!--<groupId>org.apache.lucene</groupId>-->
+      <!--<artifactId>lucene-memory</artifactId>-->
+      <!--<version>4.4.0</version>-->
+    <!--</dependency>-->
+    <!--&lt;!&ndash; IKAnalyzer &ndash;&gt;-->
+    <!--<dependency>-->
+      <!--<groupId>com.janeluo</groupId>-->
+      <!--<artifactId>ikanalyzer</artifactId>-->
+      <!--<version>2012_u6</version>-->
+    <!--</dependency>-->
+
 
 
   </dependencies>
   <build>
     <finalName>SSM</finalName>
+    <!--方便MAVEN 工程打包resources目录外的更多资源文件-->
     <resources>
       <resource>
         <directory>src/main/java</directory>

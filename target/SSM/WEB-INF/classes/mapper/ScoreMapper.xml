@@ -7,4 +7,20 @@
         INSERT  INTO score (change_type,score,user_id)
         VALUES (#{changeType},#{score},#{user.id})
     </insert>
+    <select id="queryAll" resultType="com.fuzhu.entity.Score" >
+        SELECT
+        *
+        FROM
+        score
+    </select>
+    <select id="queryLimit" resultType="com.fuzhu.entity.Score">
+        SELECT
+          *
+        FROM
+          score
+        ORDER BY
+          create_time
+        DESC
+        LIMIT #{offset}, #{limit}
+    </select>
 </mapper>

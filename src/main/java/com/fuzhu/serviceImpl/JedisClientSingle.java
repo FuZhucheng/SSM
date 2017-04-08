@@ -1,11 +1,19 @@
 package com.fuzhu.serviceImpl;
 
+import com.alibaba.fastjson.JSONArray;
+import com.fuzhu.entity.User;
 import com.fuzhu.service.JedisClient;
+import com.fuzhu.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 import redis.clients.jedis.Jedis;
 import redis.clients.jedis.JedisPool;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Set;
 
 /**
  * Created by ${符柱成} on 2017/3/31.
@@ -16,11 +24,6 @@ public class JedisClientSingle implements JedisClient {
     @Autowired
     private JedisPool jedisPool;
 
-    //    JedisPool jedisPool = new JedisPool("127.0.0.1",6379);
-//    @Bean
-//    public JedisPool jedisPool{
-//        return new JedisPool("127.0.0.1",6379);
-//    }
     @Override
     public String get(String key) {
         Jedis jedis = jedisPool.getResource();
@@ -94,4 +97,40 @@ public class JedisClientSingle implements JedisClient {
         jedis.close();
         return result;
     }
+    @Override
+    public long zaddList(String key,List<User> userList){
+        Jedis jedis = jedisPool.getResource();
+        Long result = null;
+        for (int i=0;i<userList.size();i++){
+             result = jedis.zadd(key, userList.get(i).getScore(), JsonUtils.objectToJson(userList.get(i)));
+        }
+        jedis.close();
+        return result;
+    }
+
+    @Override
+    public long zadd(String key,double score,User user){
+        Jedis jedis = jedisPool.getResource();
+        Long result = jedis.zadd(key, score, JsonUtils.objectToJson(user));
+        jedis.close();
+        return result;
+    }
+    @Override
+    public Set<String> zgetAll(String key,long start,long end){
+        Jedis jedis = jedisPool.getResource();
+        Set<String> userSet =jedis.zrange(key, start, end);
+        System.out.println("userSet    :"+userSet);
+        jedis.close();
+        return userSet;
+    }
+    //拿最后一名的，所以start跟end必须标记最后一名的位置索引
+    @Override
+    public Set<String> getTopLast(String key,long start,long end) {
+        Jedis jedis = jedisPool.getResource();
+        Set<String> userSet = jedis.zrange(key,start,end);
+        System.out.println("userSet    :"+userSet);
+        jedis.close();
+        return userSet;
+    }
+
 }

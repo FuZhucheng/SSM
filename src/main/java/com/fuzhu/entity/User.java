@@ -32,6 +32,8 @@ public class User {
     private String sex;
     //密码
     private String password;
+//    //排名
+//    private Integer rank;
 
     public User() {
     }
@@ -146,4 +148,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

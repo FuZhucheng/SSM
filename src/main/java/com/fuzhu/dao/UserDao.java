@@ -1,6 +1,7 @@
 package com.fuzhu.dao;
 
 import com.fuzhu.entity.User;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
 
@@ -14,5 +15,10 @@ public interface UserDao {
     List<User> queryAll();
     //删除用户
     int deleteUser(long id);
-
+    //增加用户
+    int insertUser(User user);
+    //修改用户积分
+    void updateScore(@Param("id")long id, @Param("scoreCount")int scoreCount);
+    //排行榜的查找topN
+    List<User> queryTopN();
 }

@@ -3,8 +3,43 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.fuzhu.dao.UserDao">
-    <!--<insert id="insertUser" parameterType="com.fuzhu.entity.User">-->
-        <!--insert ignore  into USER (id,account,avatar,pay_money,country,create_time,score,latitude,longitude,province,sex,password)-->
-        <!--VALUES (#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},#{},#{})-->
-    <!--</insert>-->
+    <insert id="insertUser" parameterType="com.fuzhu.entity.User">
+        insert ignore  into USER (account,avatar,pay_money,country,score,latitude,longitude,province,sex,password)
+        VALUES (#{account},#{avatar},#{payMoney},#{country},#{score},#{latitude},#{longitude},#{province},#{sex},#{password})
+    </insert>
+    <select id="queryAll" resultType="com.fuzhu.entity.User">
+        SELECT
+              *
+        FROM
+            user
+    </select>
+    <delete id="deleteUser" parameterType="long">
+        DELETE FROM user WHERE id=#{id}
+    </delete>
+    <select id="queryById" parameterType="long" resultType="com.fuzhu.entity.User">
+        SELECT
+              *
+        FROM
+            USER
+        WHERE
+            id=#{id}
+    </select>
+    <update id="updateScore" >
+        UPDATE
+            USER
+        SET
+            score = score +#{scoreCount}
+        WHERE
+            id = #{id}
+    </update>
+    <select id="queryTopN" resultType="com.fuzhu.entity.User">
+        SELECT
+            *
+        FROM
+            USER
+        ORDER BY
+            score
+        DESC
+          LIMIT 20
+    </select>
 </mapper>
