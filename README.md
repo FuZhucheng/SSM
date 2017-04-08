@@ -3,6 +3,8 @@
 #### 并附带一系列的博客文章：
 #### （一）[项目框架整合构建](http://blog.csdn.net/Jack__Frost/article/details/68932117)
 #### （二）[建立商品数据库和Lucene的搭建](http://blog.csdn.net/jack__frost/article/details/68947868)
+#### （三）[ Redis系列（一）--安装、helloworld以及读懂配置文件](http://blog.csdn.net/jack__frost/article/details/67633975)
+#### （四）[Redis系列（二）--缓存设计（整表缓存以及排行榜缓存方案实现）](http://blog.csdn.net/jack__frost/article/details/69568610)
 ***
 ### 使用姿势：请阅读使用demo必读文件《使用前必读！》
 ***
