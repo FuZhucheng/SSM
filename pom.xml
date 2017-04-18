@@ -150,33 +150,33 @@
     </dependency>
 
     <!-- lucene核心包 -->
-    <!-- lucene -->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.lucene</groupId>-->
-      <!--<artifactId>lucene-core</artifactId>-->
-      <!--<version>4.4.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.lucene</groupId>-->
-      <!--<artifactId>lucene-queryparser</artifactId>-->
-      <!--<version>4.4.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.lucene</groupId>-->
-      <!--<artifactId>lucene-analyzers-common</artifactId>-->
-      <!--<version>4.4.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.lucene</groupId>-->
-      <!--<artifactId>lucene-highlighter</artifactId>-->
-      <!--<version>4.4.0</version>-->
-    <!--</dependency>-->
-    <!--<dependency>-->
-      <!--<groupId>org.apache.lucene</groupId>-->
-      <!--<artifactId>lucene-memory</artifactId>-->
-      <!--<version>4.4.0</version>-->
-    <!--</dependency>-->
-    <!--&lt;!&ndash; IKAnalyzer &ndash;&gt;-->
+     <!--lucene -->
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-core</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-queryparser</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-analyzers-common</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-highlighter</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.lucene</groupId>
+      <artifactId>lucene-memory</artifactId>
+      <version>4.4.0</version>
+    </dependency>
+    <!-- IKAnalyzer -->
     <!--<dependency>-->
       <!--<groupId>com.janeluo</groupId>-->
       <!--<artifactId>ikanalyzer</artifactId>-->

@@ -26,4 +26,7 @@
 
     <!-- 4.扫描web相关的bean -->
     <context:component-scan base-package="com.fuzhu.controller" />
+
+    <bean id="luceneDao" class="com.fuzhu.dao.LuceneDao" >
+    </bean>
 </beans>

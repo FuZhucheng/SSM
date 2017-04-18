@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.fuzhu.dao.GoodDetailsDao">
+
+    <!-- goodAfterRate和industryCompare在表中对应的数据类型是nvarchar -->
+    <resultMap id="goodDetailsResultMap" type="com.fuzhu.entity.GoodDetails">
+        <id column="Good_ID" property="goodId" jdbcType="NVARCHAR" />
+        <result column="Good_Name" property="goodName" jdbcType="NVARCHAR" />
+        <result column="Good_Brand" property="goodBrand" jdbcType="NVARCHAR" />
+        <result column="Good_Price" property="goodPrice"  jdbcType="NVARCHAR" />
+        <result column="Monthsale_Num" property="monthsaleNum"  jdbcType="INTEGER" />
+        <result column="Good_Hot" property="goodHot" jdbcType="INTEGER" />
+        <result column="Store_Name" property="storeName" jdbcType="NVARCHAR" />
+        <result column="Store_Link" property="storeLink" jdbcType="NVARCHAR" />
+        <result column="Store_Add" property="storeAdd" jdbcType="NVARCHAR" />
+        <result column="Seller_Credit" property="sellerCredit" jdbcType="NVARCHAR" />
+        <result column="Ishas_License" property="ishasLicense" jdbcType="INTEGER" />
+        <result column="Color_Classification" property="colorClassification" jdbcType="NVARCHAR" />
+        <result column="Comment_Num" property="commentNum" jdbcType="INTEGER" />
+        <result column="Good_AfterRate" property="goodAfterRate" jdbcType="NVARCHAR" />
+        <result column="Industry_Compare" property="industryCompare" jdbcType="NVARCHAR" />
+        <result column="Good_Link" property="goodLink" jdbcType="NVARCHAR" />
+        <result column="DescriptionSituation" property="descriptionSituation" jdbcType="DECIMAL" />
+        <result column="ServiceAttitude" property="serviceAttitude" jdbcType="DECIMAL" />
+        <result column="LogisticsService" property="logisticsService" jdbcType="DECIMAL" />
+    </resultMap>
+
+
+    <select id="findGoodDetailsById" resultMap="goodDetailsResultMap"
+            parameterType="String">
+        select * from Commodity_list where Good_ID =
+        #{id}
+    </select>
+
+
+</mapper>

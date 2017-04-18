@@ -38,6 +38,14 @@
           <element id="library" level="project" name="Maven: org.apache.commons:commons-pool2:2.3" />
           <element id="library" level="project" name="Maven: commons-collections:commons-collections:3.2" />
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.5" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:4.4.0" />
+          <element id="library" level="project" name="Maven: jakarta-regexp:jakarta-regexp:1.4" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:4.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:4.4.0" />
         </element>
       </element>
       <element id="directory" name="META-INF">

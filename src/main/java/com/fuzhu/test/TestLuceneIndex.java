@@ -1,6 +1,9 @@
 package com.fuzhu.test;
 
+import org.apache.lucene.queryparser.classic.ParseException;
 import org.junit.Test;
+
+import java.io.IOException;
 
 /**
  * Created by ${符柱成} on 2017/4/1.
@@ -22,5 +25,10 @@ public class TestLuceneIndex {
     public void testSearch(){
         LuceneTest luceneTest = new LuceneTest();
         luceneTest.search();
+    }
+    @Test
+    public void testQuery() throws IOException, ParseException {
+        LuceneTest luceneTest = new LuceneTest();
+        luceneTest.query();
     }
 }

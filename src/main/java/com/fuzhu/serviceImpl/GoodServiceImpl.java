@@ -1,5 +1,6 @@
 package com.fuzhu.serviceImpl;
 
+import com.fuzhu.dao.GoodDetailsDao;
 import com.fuzhu.dao.LuceneDao;
 import com.fuzhu.entity.GoodDetails;
 import com.fuzhu.service.GoodService;
@@ -14,21 +15,26 @@ import java.util.List;
  */
 @Service
 public class GoodServiceImpl implements GoodService {
+    @Autowired
+    private GoodDetailsDao goodDetailsDao;
 
     @Override
     public List<GoodDetails> findGoodByClassifyName(String ClassifyName) throws Exception {
         return null;
     }
-
+    @Autowired
+    private LuceneDao luceneDao;
     @Override
     public List<GoodDetails> findIndex(String keyword, int start, int row) {
-        LuceneDao luceneDao = new LuceneDao();
-        LuceneTest luceneTest =new LuceneTest();
+//        LuceneDao luceneDao = new LuceneDao();
+        System.out.print("luceneDao       "+luceneDao);
         List<GoodDetails> goodDetailsList;
         try {
+            long start2 = System.nanoTime();
             goodDetailsList = luceneDao.findIndex(keyword, start, row);
-//            luceneTest.search();
-            return null;
+            long time = System.nanoTime() - start2;
+            System.out.println("测试索引耗时！！！！"+time);
+            return goodDetailsList;
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -36,8 +42,9 @@ public class GoodServiceImpl implements GoodService {
     }
 
     @Override
-    public GoodDetails findGoodAllDetailsById(String realGoodid) {
-        return null;
+    public GoodDetails findGoodAllDetailsById(String goodId) {
+        GoodDetails goodDetails = goodDetailsDao.findGoodDetailsById(goodId);
+        return goodDetails;
     }
 
     @Override

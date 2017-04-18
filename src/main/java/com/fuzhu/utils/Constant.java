@@ -6,8 +6,4 @@ package com.fuzhu.utils;
 public class Constant {
     public static final String INDEXURL_ALL = "F://ssm/All";
 
-    public static final String INDEXURL = "F://index/XiZhuang";
-
-    public static final String INDEXURL_TEST = "F://index/test";
-
 }

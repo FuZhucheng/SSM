@@ -1,5 +1,6 @@
 package com.fuzhu.controller;
 
+import com.alibaba.fastjson.JSON;
 import com.fuzhu.entity.GoodDetails;
 import com.fuzhu.service.GoodService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,8 +23,7 @@ import java.util.List;
 public class GoodController {
     @Autowired
     private GoodService goodService;
-    List<GoodDetails> goodList = null;
-    List<Integer> ids = null;
+    private List<GoodDetails> goodList = null;
 
     // 文字检索
     @RequestMapping(value = "/findGoodByName",produces="text/html;charset=UTF-8", method = {RequestMethod.GET,RequestMethod.GET})
@@ -59,26 +59,11 @@ public class GoodController {
             long time = System.nanoTime() - start;
             System.out.println("测试耗时！！！！"+time);
         }
-
-        //把商品信息丢进预警方法中，得到预警结果
-        ids = goodService.methodOfWarn(goodList);
-
-        //goodAllDetailsAndIdsList是最终文字检索返回的内容
-        //goodList商品的信息，ids商品预警结果
-        List<Object> goodAllDetailsAndIdsList = new ArrayList<Object>();
-        goodAllDetailsAndIdsList.add(goodList);
-        goodAllDetailsAndIdsList.add(ids);
-
         System.out.println("现在北京时间是：" + new Date());
-
         if (goodList != null) {
             System.out.println("根据商品名找到的商品数目" + goodList.size());
         }
+        return JSON.toJSONString(goodList);
 
-        for (GoodDetails goodDetails : goodList) {
-            // good
-        }
-
-        return goodAllDetailsAndIdsList;
     }
 }

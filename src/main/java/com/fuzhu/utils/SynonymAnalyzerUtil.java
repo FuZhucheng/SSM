@@ -8,15 +8,14 @@ import org.apache.lucene.analysis.TokenStream;
 import org.apache.lucene.analysis.synonym.SynonymFilterFactory;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;
 import org.apache.lucene.analysis.util.FilesystemResourceLoader;
-import org.apache.lucene.queryparser.classic.ParseException;
 import org.apache.lucene.util.Version;
-import org.junit.Test;
 import org.wltea.analyzer.core.IKSegmenter;
 import org.wltea.analyzer.core.Lexeme;
 import org.wltea.analyzer.lucene.IKAnalyzer;
 
 import java.io.IOException;
 import java.io.StringReader;
+import java.net.URL;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -36,15 +35,15 @@ public class SynonymAnalyzerUtil {
         }
         return sb.toString();
     }
-
     /**
      *
      * 此方法描述的是：针对上面方法拆分后的词组进行同义词匹配，返回TokenStream
-     * synonyms.txt：同义词表，在src目录下
+     * synonyms.txt：同义词表，在resources目录下
      */
     public static TokenStream convertSynonym(String input) throws IOException{
         Version ver = Version.LUCENE_44;
         Map<String, String> filterArgs = new HashMap<String, String>();
+
         filterArgs.put("luceneMatchVersion", ver.toString());
         filterArgs.put("synonyms", "synonyms.txt");
         filterArgs.put("expand", "true");
@@ -75,23 +74,4 @@ public class SynonymAnalyzerUtil {
         ts.close();
         return sb.toString();
     }
-
-    /*public static void main(String[] args) {
-    	String indexPath = "D:\\search\\test";
-    	String input = "大大大的电脑";
-    	System.out.println("**********************");
-		try {
-			String result = displayTokens(convertSynonym(analyzeChinese(input, true)));
-			System.out.println("result="+result);
-			List<String> docs = MySearcher.searchIndex(result, indexPath);
-			for (String string : docs) {
-				System.out.println(string);
-			}
-		} catch (IOException e) {
-			e.printStackTrace();
-		} catch (ParseException e) {
-			e.printStackTrace();
-		}
-	}*/
-
 }
