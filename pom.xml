@@ -16,7 +16,12 @@
 
   </properties>
   <dependencies>
-
+    <!--JSON WEB TOKEN -->
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt</artifactId>
+      <version>0.6.0</version>
+    </dependency>
     <!-- 单元测试 -->
     <dependency>
       <groupId>junit</groupId>

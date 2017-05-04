@@ -24,8 +24,24 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+
     <!-- 4.扫描web相关的bean -->
     <context:component-scan base-package="com.fuzhu.controller" />
+
+    <!-- 配置拦截器 -->
+    <mvc:interceptors>
+        <!-- 配置登陆拦截器 -->
+        <mvc:interceptor>
+            <!--拦截后台页面的请求-->
+            <mvc:mapping path="/backend/**"/>
+            <!--<mvc:mapping path="/test/testMethod"/>-->
+            <!--不拦截登录页和登录的请求-->
+            <mvc:exclude-mapping path="/backend/loginPage"/>
+            <mvc:exclude-mapping path="/backend/login"/>
+            <!--<bean class="com.fuzhu.Interceptor.Myinterceptor"></bean>-->
+            <bean class="com.fuzhu.Interceptor.LoginInterceptor"></bean>
+        </mvc:interceptor>
+    </mvc:interceptors>
 
     <bean id="luceneDao" class="com.fuzhu.dao.LuceneDao" >
     </bean>

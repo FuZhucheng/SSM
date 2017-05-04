@@ -37,9 +37,9 @@ public class TestController {
     @RequestMapping(value = "/testMethod",produces="text/html;charset=UTF-8", method = {RequestMethod.GET,RequestMethod.GET})
     public String test() {
         Score score = new Score();
-        score.setChangeType("玩游戏");
-        score.setScore(10);
-        scoreService.insertScore(score);
+//        score.setChangeType("玩游戏");
+//        score.setScore(10);
+//        scoreService.insertScore(score);
         return JSON.toJSONString(score);
     }
     @RequestMapping(value = "/testRedis",produces="text/html;charset=UTF-8", method = {RequestMethod.GET,RequestMethod.GET})
