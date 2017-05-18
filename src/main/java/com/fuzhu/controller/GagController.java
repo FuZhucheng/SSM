@@ -34,6 +34,7 @@ public class GagController {
                 System.out.println("有缓存啦啦啦！！！");
                 JSONArray array = JSONArray.parseArray(resulthget);
                 gagList = (List) array;
+                System.out.println(gagList);
             } else {
                 System.out.println("禁言表没查过");
                 gagList= gagService.findByUserId(id);

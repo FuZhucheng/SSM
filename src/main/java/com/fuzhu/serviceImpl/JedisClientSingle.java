@@ -23,11 +23,15 @@ public class JedisClientSingle implements JedisClient {
 
     @Autowired
     private JedisPool jedisPool;
+    private int expiredTime = 60*60*24*2;//设置过期时间为两天.
+
 
     @Override
     public String get(String key) {
         Jedis jedis = jedisPool.getResource();
         String string = jedis.get(key);
+        //解开注释即可体验过期策略
+//        jedis.expire(key,5);
         jedis.close();
         return string;
     }
@@ -36,6 +40,10 @@ public class JedisClientSingle implements JedisClient {
     public String set(String key, String value) {
         Jedis jedis = jedisPool.getResource();
         String string = jedis.set(key, value);
+        //解开注释即可体验过期策略
+//        jedis.expire(key,5);
+//        System.out.println("key :  "+key);
+//        System.out.println("查看key的剩余生存时间："+jedis.ttl(key));
         jedis.close();
         return string;
     }
@@ -54,6 +62,10 @@ public class JedisClientSingle implements JedisClient {
     public long hset(String hkey, String key, String value) {
         Jedis jedis = jedisPool.getResource();
         Long result = jedis.hset(hkey, key, value);
+        //解开注释即可体验过期策略
+//        jedis.expire(hkey,expiredTime);
+//        System.out.println("key :  "+key);
+//        System.out.println("查看key001的剩余生存时间："+jedis.ttl(hkey));
         jedis.close();
         return result;
     }
