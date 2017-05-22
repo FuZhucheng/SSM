@@ -8,6 +8,8 @@
 #### （五）[ Lucene总结系列（一）--认识、helloworld以及基本的api操作。](http://blog.csdn.net/Jack__Frost/article/details/70156391)
 #### （六）[Lucene总结系列（二）--商品检索系统的文字检索业务（lucene项目使用）](http://blog.csdn.net/Jack__Frost/article/details/70176553)
 #### （七）[Lucene总结系列（三）--总述优化方案和呈现实时内存索引实现（结合RAMDirectory源码解析）](http://blog.csdn.net/jack__frost/article/details/70215598)
+#### （八）[JavaWeb--Servlet过滤器Filter和SpringMVC的HandlerInterceptor（Session和Cookie登录认证）](http://blog.csdn.net/jack__frost/article/details/71158139)
+#### （九）[Redis系列（三）--过期策略](http://blog.csdn.net/jack__frost/article/details/71216098)
 ***
 ### 使用姿势：请阅读使用demo必读文件《使用前必读！》
 ***
