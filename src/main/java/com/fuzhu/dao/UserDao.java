@@ -21,4 +21,6 @@ public interface UserDao {
     void updateScore(@Param("id")long id, @Param("scoreCount")int scoreCount);
     //排行榜的查找topN
     List<User> queryTopN();
+    //根据省份查用户
+    List<User> findUserByProvince(@Param("province") String province);
 }

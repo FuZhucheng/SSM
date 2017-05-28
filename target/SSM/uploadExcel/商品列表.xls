@@ -1,0 +1,124 @@
+
+
+
+
+
+
+
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:o="urn:schemas-microsoft-com:office:office"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:html="http://www.w3.org/TR/REC-html40">
+    <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+        <Created>2006-09-16T00:00:00Z</Created>
+        <LastSaved>2017-05-27T04:19:30Z</LastSaved>
+        <Version>15.00</Version>
+    </DocumentProperties>
+    <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+        <AllowPNG/>
+        <RemovePersonalInformation/>
+    </OfficeDocumentSettings>
+    <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+        <WindowHeight>8010</WindowHeight>
+        <WindowWidth>14805</WindowWidth>
+        <WindowTopX>240</WindowTopX>
+        <WindowTopY>105</WindowTopY>
+        <ProtectStructure>False</ProtectStructure>
+        <ProtectWindows>False</ProtectWindows>
+    </ExcelWorkbook>
+    <Styles>
+        <Style ss:ID="Default" ss:Name="Normal">
+            <Alignment ss:Vertical="Bottom"/>
+            <Borders/>
+            <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+            <Interior/>
+            <NumberFormat/>
+            <Protection/>
+        </Style>
+        <Style ss:ID="s87">
+            <Interior ss:Color="#DCE6F1" ss:Pattern="Solid"/>
+        </Style>
+        <Style ss:ID="s101">
+            <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+            <Interior ss:Color="#4BACC6" ss:Pattern="Solid"/>
+        </Style>
+    </Styles>
+    <Worksheet ss:Name="商品列表">
+        <Table ss:ExpandedColumnCount="5" ss:ExpandedRowCount="65000" x:FullColumns="1"
+               x:FullRows="1" ss:DefaultColumnWidth="99" ss:DefaultRowHeight="20.0625">
+            <Row ss:AutoFitHeight="0" ss:Height="33.75">
+                
+                <Cell ss:StyleID="s67"><Data ss:Type="String">商品名</Data></Cell>
+                
+                <Cell ss:StyleID="s67"><Data ss:Type="String">商品类型</Data></Cell>
+                
+                <Cell ss:StyleID="s67"><Data ss:Type="String">商品地址</Data></Cell>
+                
+                <Cell ss:StyleID="s67"><Data ss:Type="String">商品星级</Data></Cell>
+                
+                <Cell ss:StyleID="s67"><Data ss:Type="String">商品价格</Data></Cell>
+                
+
+            </Row>
+
+            
+            <Row ss:AutoFitHeight="0">
+                <Cell ss:StyleID="s68"><Data ss:Type="String">广州榉木家具-进口榉木-双层床-上下床-子母床-高低床-</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">一品木舍</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">广东省广州市</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">2个蓝钻</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">2600.00 </Data></Cell>
+            </Row>
+            
+            <Row ss:AutoFitHeight="0">
+                <Cell ss:StyleID="s68"><Data ss:Type="String">特价促销实木上下床松木床双层床员工床宿舍床公寓床子母床上下铺</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">无</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">北京北京市</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">3个红心</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">750.00 </Data></Cell>
+            </Row>
+            
+            <Row ss:AutoFitHeight="0">
+                <Cell ss:StyleID="s68"><Data ss:Type="String">真皮床双人床1.8米简约时尚软床田园床1米8皮艺床榻榻米婚床N42</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">泊宁馨品</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">广东省佛山市</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">3个蓝钻</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">2660.00 </Data></Cell>
+            </Row>
+            
+            <Row ss:AutoFitHeight="0">
+                <Cell ss:StyleID="s68"><Data ss:Type="String">时尚榻榻米真皮床皮艺双人床1.8米田园床软床软体床婚床头层牛皮</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">泊宁馨品</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">广东省佛山市</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">3个蓝钻</Data></Cell>
+                <Cell ss:StyleID="s68"><Data ss:Type="String">2793.60</Data></Cell>
+            </Row>
+            
+        </Table>
+        <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+            <PageSetup>
+                <Header x:Margin="0.3"/>
+                <Footer x:Margin="0.3"/>
+                <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+            </PageSetup>
+            <Print>
+                <ValidPrinterInfo/>
+                <PaperSizeIndex>9</PaperSizeIndex>
+                <VerticalResolution>0</VerticalResolution>
+            </Print>
+            <Selected/>
+            <Panes>
+                <Pane>
+                    <Number>3</Number>
+                    <ActiveRow>7</ActiveRow>
+                    <ActiveCol>3</ActiveCol>
+                </Pane>
+            </Panes>
+            <ProtectObjects>False</ProtectObjects>
+            <ProtectScenarios>False</ProtectScenarios>
+        </WorksheetOptions>
+    </Worksheet>
+</Workbook>

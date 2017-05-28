@@ -9,11 +9,14 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by ${符柱成} on 2017/4/6.
@@ -23,14 +26,14 @@ import java.util.List;
 public class GoodController {
     @Autowired
     private GoodService goodService;
-    private List<GoodDetails> goodList = null;
+
 
     // 文字检索
     @RequestMapping(value = "/findGoodByName",produces="text/html;charset=UTF-8", method = {RequestMethod.GET,RequestMethod.GET})
     public Object findGoodByName(String goodName, HttpServletResponse response)
             throws Exception {
         response.setHeader("Access-Control-Allow-Origin", "*");
-
+         List<GoodDetails> goodList = null;
         System.out.println("查找商品名参数：" + goodName);
         System.out.println("-------------------------------");
 
@@ -66,4 +69,5 @@ public class GoodController {
         return JSON.toJSONString(goodList);
 
     }
+
 }

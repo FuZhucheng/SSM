@@ -40,6 +40,24 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/commons-fileupload-1.2.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/src/main/webapp/WEB-INF/lib/commons-io-1.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
     <orderEntry type="library" name="Maven: io.jsonwebtoken:jjwt:0.6.0" level="project" />
     <orderEntry type="library" name="Maven: junit:junit:4.11" level="project" />
     <orderEntry type="library" name="Maven: org.hamcrest:hamcrest-core:1.3" level="project" />
@@ -72,6 +90,8 @@
     <orderEntry type="library" name="Maven: org.apache.commons:commons-pool2:2.3" level="project" />
     <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2" level="project" />
     <orderEntry type="library" name="Maven: com.alibaba:fastjson:1.2.5" level="project" />
+    <orderEntry type="library" name="Maven: commons-fileupload:commons-fileupload:1.2.1" level="project" />
+    <orderEntry type="library" name="Maven: commons-io:commons-io:1.4" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-core:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queryparser:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-queries:4.4.0" level="project" />
@@ -80,5 +100,13 @@
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-analyzers-common:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-highlighter:4.4.0" level="project" />
     <orderEntry type="library" name="Maven: org.apache.lucene:lucene-memory:4.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi:3.15" level="project" />
+    <orderEntry type="library" name="Maven: commons-codec:commons-codec:1.10" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.commons:commons-collections4:4.1" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml:3.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.poi:poi-ooxml-schemas:3.15" level="project" />
+    <orderEntry type="library" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" level="project" />
+    <orderEntry type="library" name="Maven: stax:stax-api:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.github.virtuald:curvesapi:1.04" level="project" />
   </component>
 </module>

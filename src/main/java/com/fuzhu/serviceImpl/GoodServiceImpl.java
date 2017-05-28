@@ -4,7 +4,6 @@ import com.fuzhu.dao.GoodDetailsDao;
 import com.fuzhu.dao.LuceneDao;
 import com.fuzhu.entity.GoodDetails;
 import com.fuzhu.service.GoodService;
-import com.fuzhu.test.LuceneTest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -48,8 +47,10 @@ public class GoodServiceImpl implements GoodService {
     }
 
     @Override
-    public List<GoodDetails> getGoodList(List<String> ids) {
-        return null;
+    public List<GoodDetails> getGoodList(String location) {
+        List<GoodDetails> goodList= goodDetailsDao.findGoods(location);
+        System.out.println(goodList.toString());
+        return goodList;
     }
 
     @Override

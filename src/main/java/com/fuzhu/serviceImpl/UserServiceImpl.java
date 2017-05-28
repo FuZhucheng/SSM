@@ -44,4 +44,11 @@ public class UserServiceImpl implements UserService {
         List<User>userList =userDao.queryTopN();
         return userList;
     }
+
+    @Override
+    public List<User> findUserByProvince(String province) {
+        List<User> userList = userDao.findUserByProvince(province);
+        System.out.println(userList.toString());
+        return userList;
+    }
 }

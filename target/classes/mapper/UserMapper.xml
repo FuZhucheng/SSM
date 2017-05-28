@@ -42,4 +42,15 @@
         DESC
           LIMIT 20
     </select>
+
+    <select id="findUserByProvince" resultType="com.fuzhu.entity.User">
+        SELECT
+        *
+        FROM
+          USER
+        WHERE 1=1
+        <if test="province != null and province !=''">
+            AND province LIKE concat(concat('%',#{province}),'%')
+        </if>
+    </select>
 </mapper>

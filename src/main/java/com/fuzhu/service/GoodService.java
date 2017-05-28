@@ -15,7 +15,7 @@ public interface GoodService {
     public GoodDetails findGoodAllDetailsById(String realGoodid);
 
 
-    public List<GoodDetails> getGoodList(List<String> ids);
+    public List<GoodDetails> getGoodList(String location);
 
     public List<Integer> methodOfWarn(List<GoodDetails> goodDetailsList) throws Exception;
 

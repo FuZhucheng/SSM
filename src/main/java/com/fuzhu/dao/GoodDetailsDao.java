@@ -1,8 +1,10 @@
 package com.fuzhu.dao;
 
 import com.fuzhu.entity.GoodDetails;
+import org.apache.ibatis.annotations.Param;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by asus on 2017/4/8.
@@ -16,4 +18,6 @@ public interface GoodDetailsDao {
     public GoodDetails findGoodDetailsById(String id);
 
     public List<GoodDetails> fingGoodsByFeatureIds(List<String> ids);
+
+    public List<GoodDetails> findGoods(@Param("location")String location);
 }

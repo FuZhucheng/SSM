@@ -154,6 +154,21 @@
       <version>1.2.5</version>
     </dependency>
 
+    <!--文件上传-->
+    <dependency>
+      <groupId>commons-fileupload</groupId>
+      <artifactId>commons-fileupload</artifactId>
+      <version>1.2.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>commons-io</groupId>
+      <artifactId>commons-io</artifactId>
+      <version>1.4</version>
+    </dependency>
+
+
+
     <!-- lucene核心包 -->
      <!--lucene -->
     <dependency>
@@ -188,6 +203,18 @@
       <!--<version>2012_u6</version>-->
     <!--</dependency>-->
 
+    <!-- poi -->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi</artifactId>
+      <version>3.15</version>
+    </dependency>
+    <!--zdk add 2017-5-16-->
+    <dependency>
+      <groupId>org.apache.poi</groupId>
+      <artifactId>poi-ooxml</artifactId>
+      <version>3.15</version>
+    </dependency>
 
 
   </dependencies>

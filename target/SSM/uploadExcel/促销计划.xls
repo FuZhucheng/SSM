@@ -1,0 +1,1119 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Created>2006-09-13T11:21:51Z</Created>
+  <LastSaved>2011-10-20T11:56:16Z</LastSaved>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <RemovePersonalInformation/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>11640</WindowHeight>
+  <WindowWidth>19200</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>90</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="常规 2 2 2">
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="12"/>
+  </Style>
+  <Style ss:ID="s62">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center"/>
+  </Style>
+  <Style ss:ID="s67" ss:Parent="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Color="#FFFFFF" ss:Bold="1"/>
+   <Interior ss:Color="#0066CC" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="宋体" x:CharSet="134" ss:Size="9"/>
+   <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="促销计划">
+  <Table ss:ExpandedColumnCount="9" ss:ExpandedRowCount="65000" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultColumnWidth="99" ss:DefaultRowHeight="20.0625">
+   <Row ss:AutoFitHeight="0" ss:Height="33.75">
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">分公司</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">网格</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">代理商</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">社区名称</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">社区地址</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">促销具体位置</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">计划促销日期</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">计划促销时间</Data></Cell>
+   	
+   		<Cell ss:StyleID="s67"><Data ss:Type="String">代理商业务员</Data></Cell>
+   	
+    
+   </Row>
+   
+    	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">1111</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:53:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">龙洞</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">育龙居</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区天源路育龙居（华南植物园正大门斜对面）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">育龙居</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:00:00-21:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈思思13808844067</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-05-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">14:53:00-19:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">utr n</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">18:39:00-18:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-05-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-19:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试网格</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试社区88</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试地址</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试社区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-05-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-19:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-06-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-14:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">花岗方法</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-13:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">挂号费分</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:16:00-14:16:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">个地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-00:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">gdgf d</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-00:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">金额多方式的</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">花粉管和</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">19:12:00-19:50:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华景</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">和嘉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">泰然楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄埔大道中165/179</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aaa</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">18:12:00-19:12:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">邱梁钊15707684458,邱梁钊15707684458,邱梁钊15707684458</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">三vb</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:18:00-22:18:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">粉色我</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:15:00-21:15:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">副食店发</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:05:00-17:05:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">擦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:32:00-17:32:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美好居</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河天河区中山大道中29号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">发送发</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-09:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">创业楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">fdsf </Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:21:00-21:21:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美好居</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河天河区中山大道中29号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">cs</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:20:00-23:20:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">创业楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">创业楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:18:00-18:18:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广氮新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂北街22号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广氮新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:14:00-18:14:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">17:38:00-17:45:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">14:42:00-22:42:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">14:21:00-17:21:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试网格</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试社区88</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试地址</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">几个以后如何</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-00:45:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试网格</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试社区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试社区地址是xxxxx</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广泛的风格</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-04-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-00:45:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">龙洞</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">冠庭园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区广州大道北沙和路647-649号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">111</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:14:00-18:14:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:40:00-18:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">gfdfgfd</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:57:00-14:57:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">创业楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">测试</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">17:55:00-21:55:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">创业楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">3333</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">19:20:00-20:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">的</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:45:00-23:52:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">5555</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">19:50:00-20:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广氮新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂北街22号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">促销地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11:17:00-20:17:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美东花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区车陂美东街自编2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎折覆餗</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:23:00-21:23:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">南悦楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">QQ群</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:30:00-18:30:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">南悦楼</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区车陂公交场旁,（2栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">444</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">20:50:00-22:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">美好居</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河天河区中山大道中29号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">222</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">18:20:00-19:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广氮新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂北街22号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">111</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:50:00-22:40:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,代业员4,代业员4,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村11号大院</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区员村二横路（14栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">12:01:00-18:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">符敏18818807172</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和西小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区林和西路103号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:01:00-18:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵锦权13729883430</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">瑜翠园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区龙洞天源路龙眼洞森林公园旁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:01:00-18:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">谢国强18702073240</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">旭日雅苑</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区员村一横路员员村西街4号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">18:02:00-18:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">谢天佐13527701409</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">康湖山庄</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州天河区员村山顶黄埔大道12号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-03-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:01:00-18:02:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">符敏18818807172</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2、3、5号大院</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区员村西街2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">dfadsfas</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-02-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-16:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">跑马场</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">中海花城湾</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区珠江新城花城大道86号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">sds</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-02-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-16:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">程超15112111167</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">跑马场</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">中海花城湾</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区珠江新城花城大道86号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11111111</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-02-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-16:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">程超15112111167</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2、3、5号大院</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区员村西街2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">111</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-02-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-17:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2、3、5号大院</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区员村西街2号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aaa</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-02-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:00:00-17:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aaa</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:20:00-18:25:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aaa </Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:20:00-18:20:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">啊啊啊</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:10:00-15:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:10:00-15:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">hihiu</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11:38:00-19:38:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">先烈东横路15号大院</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河区先烈东横路15号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化某地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-12:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">menkou</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11:09:00-21:09:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">瑜翠园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区龙洞天源路龙眼洞森林公园旁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:00:00-18:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">谢国强18702073240</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">车陂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广氮花园经适房</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州天河区车陂北路天健二路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:00:00-18:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">陈加达15986433721,陈加达15986433721</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">员村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">同乐花园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区员村大道126号（7栋）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:00:00-18:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">黄鹏辉18126788308</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">跑马场</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">汇景新城中区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区广园路与五山路回旋处</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:00:00-18:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">詹熙发18820110232</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">铁通</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林和西小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区林和西路103号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">小区内</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:00:00-18:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵锦权13729883430</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">丽景园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇群贤路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2017-01-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-00:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">啊啊啊</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">地质小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州大道北912号（伍仙桥）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:00:00-22:30:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">地质小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州大道北912号（伍仙桥）</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String"></Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">13:10:00-15:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">d</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">11:48:00-11:48:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">水荫四横路49－65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aaa</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,赖明波15013209069</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">棋杆</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">富满仁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">东麟钻石厂高管小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化市鳌头镇旗杆墟镇中路从化东麟钻石厂宿舍区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化某地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-12:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刘加华15876896071</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">棋杆</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">富满仁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">昌林摩托配件厂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化城郊街石合马岭（办公楼）一层</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化A地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-12:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刘加华15876896071</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">棋杆</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">富满仁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">东麟钻石厂高管小区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化市鳌头镇旗杆墟镇中路从化东麟钻石厂宿舍区</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化某地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-12:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刘加华15876896071</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">棋杆</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">富满仁</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">昌林摩托配件厂</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化城郊街石合马岭（办公楼）一层</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化A地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-12:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刘加华15876896071</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华贵大厦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇建华路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">test</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华贵大厦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇建华路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刚刚</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-20:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华贵大厦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇建华路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">test</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">00:00:00-21:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华贵大厦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇建华路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">aa </Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-3</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">08:00:00-15:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">丽景园</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇群贤路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">tet</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-1</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">16:17:00-21:17:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">番禺分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">大石片</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">鼎誉</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">华贵大厦</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市番禺区大石镇建华路</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">刚刚</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-2</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">10:00:00-15:00:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">  ,  </Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">fds</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">15:10:00-15:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   	
+    <Row ss:AutoFitHeight="0">
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">天河分公司</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">沙河</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">联缀</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">侨乐新村</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">广州市天河区沙太南路侨乐新村65号</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">从化某地方</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">2016-12-0</Data></Cell>
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">09:10:00-14:10:00</Data></Cell> 
+	   	<Cell ss:StyleID="s68"><Data ss:Type="String">赵玉华13570416605,林敬富18902249052</Data></Cell>
+   </Row>
+   
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>200</HorizontalResolution>
+    <VerticalResolution>200</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>1</ActiveRow>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

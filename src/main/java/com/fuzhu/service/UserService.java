@@ -18,4 +18,8 @@ public interface UserService {
     int insertUser(User user);
     //排行榜的查找topN
     List<User> queryTopN();
+    //根据省份查用户
+    List<User> findUserByProvince(String province);
+
+
 }
