@@ -166,6 +166,19 @@
       <artifactId>commons-io</artifactId>
       <version>1.4</version>
     </dependency>
+    <!-- 工具包，比如stringutils -->
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.1</version>
+    </dependency>
+    <!-- httpclient ，在后台进行主动地http-->
+    <dependency>
+      <groupId>commons-httpclient</groupId>
+      <artifactId>commons-httpclient</artifactId>
+      <version>3.1</version>
+    </dependency>
+
 
 
 
@@ -215,6 +228,14 @@
       <artifactId>poi-ooxml</artifactId>
       <version>3.15</version>
     </dependency>
+
+    <!-- Java 邮件-->
+    <dependency>
+      <groupId>javax.mail</groupId>
+      <artifactId>mail</artifactId>
+      <version>1.4.5</version>
+    </dependency>
+
 
 
   </dependencies>

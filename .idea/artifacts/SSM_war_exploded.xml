@@ -41,6 +41,9 @@
           <element id="library" level="project" name="Maven: com.alibaba:fastjson:1.2.5" />
           <element id="library" level="project" name="Maven: commons-fileupload:commons-fileupload:1.2.1" />
           <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
+          <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:4.4.0" />
@@ -50,13 +53,14 @@
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-highlighter:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-memory:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi:3.15" />
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-collections4:4.1" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml:3.15" />
           <element id="library" level="project" name="Maven: org.apache.poi:poi-ooxml-schemas:3.15" />
           <element id="library" level="project" name="Maven: org.apache.xmlbeans:xmlbeans:2.6.0" />
           <element id="library" level="project" name="Maven: stax:stax-api:1.0.1" />
           <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.04" />
+          <element id="library" level="project" name="Maven: javax.mail:mail:1.4.5" />
+          <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
         </element>
       </element>
       <element id="directory" name="META-INF">
