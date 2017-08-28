@@ -10,7 +10,7 @@ import java.util.List;
 public interface GoodService {
     public List<GoodDetails> findGoodByClassifyName(String ClassifyName) throws Exception;
 
-    public List<GoodDetails> findIndex(String keyword,int start,int row);
+    public List<GoodDetails> findIndex(String keyword, int start, int row);
 
     public GoodDetails findGoodAllDetailsById(String realGoodid);
 

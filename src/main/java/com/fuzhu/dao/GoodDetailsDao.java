@@ -19,5 +19,5 @@ public interface GoodDetailsDao {
 
     public List<GoodDetails> fingGoodsByFeatureIds(List<String> ids);
 
-    public List<GoodDetails> findGoods(@Param("location")String location);
+    public List<GoodDetails> findGoods(@Param("location") String location);
 }

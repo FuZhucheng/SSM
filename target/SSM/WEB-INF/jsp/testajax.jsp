@@ -124,6 +124,9 @@
     </table>
 </div>
 
+<div style="width:100%;text-align:center">
+    <button><a href="downloadPoiExecl">POI下载文件</a></button>
+</div>
 <!-- ./wrapper -->
 <!-- jQuery 2.2.0 -->
 <script src='../../js/jquery-2.2.3.min.js'></script>

@@ -22,5 +22,5 @@ public interface ScoreService {
      * @param limit 查询条数
      * @return
      */
-    List<Score> queryLimit(int offset,  int limit);
+    List<Score> queryLimit(int offset, int limit);
 }

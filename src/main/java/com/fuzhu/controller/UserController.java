@@ -3,10 +3,12 @@ package com.fuzhu.controller;
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
+import com.fuzhu.dto.DTO;
 import com.fuzhu.entity.Score;
 import com.fuzhu.entity.User;
 import com.fuzhu.service.JedisClient;
 import com.fuzhu.service.UserService;
+import com.fuzhu.utils.JavaWebToken;
 import com.fuzhu.utils.JsonUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -16,10 +18,7 @@ import org.springframework.web.bind.annotation.RestController;
 import redis.clients.jedis.ShardedJedis;
 import redis.clients.jedis.ShardedJedisPool;
 
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 /**
  * Created by ${符柱成} on 2017/4/2.
@@ -92,4 +91,22 @@ public class UserController {
 
         return JSON.toJSONString(userList);
     }
+
+    @RequestMapping(value = "/login", method = {RequestMethod.GET, RequestMethod.POST}, produces = "text/html;charset=UTF-8")
+    public String login(String account) {
+        User user = userService.login(account);
+        DTO dto = new DTO();
+        if (user == null) {
+            dto.code = "-1";
+            dto.msg = "Have not registered";
+        } else {
+            //把用户登录信息放进Session
+            Map<String, Object> loginInfo = new HashMap<>();
+            loginInfo.put("userId", user.getId());
+            String sessionId = JavaWebToken.createJavaWebToken(loginInfo);
+            dto.data = sessionId;
+        }
+        return JSON.toJSONString(user);
+    }
+
 }

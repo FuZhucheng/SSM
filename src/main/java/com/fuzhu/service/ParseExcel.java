@@ -9,5 +9,5 @@ import java.util.List;
  * Created by asus on 2017/5/27.
  */
 public interface ParseExcel {
-    List<GoodDetails> parseExcel(File xlsFile,String filename);
+    List<GoodDetails> parseExcel(File xlsFile, String filename);
 }

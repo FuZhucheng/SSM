@@ -15,6 +15,11 @@ import java.util.List;
 public class UserServiceImpl implements UserService {
     @Autowired
     private UserDao userDao;
+
+    public User login(String account) {
+        User user = userDao.login(account);
+        return user;
+    }
     @Override
     public User queryById(long id) {
         User user = userDao.queryById(id);

@@ -30,6 +30,9 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-aop:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: aopalliance:aopalliance:1.0" />
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.1.7.RELEASE" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjrt:1.6.10" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.6.10" />
+          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.10" />
           <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-tx:4.1.7.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.1.7.RELEASE" />
@@ -43,7 +46,6 @@
           <element id="library" level="project" name="Maven: commons-io:commons-io:1.4" />
           <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.1" />
           <element id="library" level="project" name="Maven: commons-httpclient:commons-httpclient:3.1" />
-          <element id="library" level="project" name="Maven: commons-codec:commons-codec:1.2" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:4.4.0" />
           <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:4.4.0" />
@@ -61,6 +63,8 @@
           <element id="library" level="project" name="Maven: com.github.virtuald:curvesapi:1.04" />
           <element id="library" level="project" name="Maven: javax.mail:mail:1.4.5" />
           <element id="library" level="project" name="Maven: javax.activation:activation:1.1" />
+          <element id="library" level="project" name="Maven: net.sourceforge.jexcelapi:jxl:2.6.12" />
+          <element id="library" level="project" name="Maven: log4j:log4j:1.2.14" />
         </element>
       </element>
       <element id="directory" name="META-INF">

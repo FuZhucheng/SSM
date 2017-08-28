@@ -19,10 +19,10 @@ public interface JedisClient {
     public long ttl(String key);
     public long del(String key);
     public long hdel(String hkey, String key);
-    public long zadd(String key,double score,User user);
+    public long zadd(String key, double score, User user);
     public Set<String> zgetAll(String key, long start, long end);
     //拿整个榜单
-    public long zaddList(String key,List<User> userList);
+    public long zaddList(String key, List<User> userList);
     //拿去榜单最后一名，比如前50名，这里就拿到第50名的User。积分变化时就拿这个值去判断，大于就丢user进redis，小于则不管
-    public Set<String> getTopLast(String key,long start,long end);
+    public Set<String> getTopLast(String key, long start, long end);
 }

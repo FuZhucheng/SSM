@@ -6,7 +6,12 @@ import com.fuzhu.entity.User;
 import com.fuzhu.service.GoodService;
 import com.fuzhu.service.ParseExcel;
 import com.fuzhu.service.UserService;
+import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpHeaders;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.multipart.MultipartFile;
@@ -93,5 +98,17 @@ public class AjaxController {
             list = parseExcel.parseExcel((File) targetFile, targetFile.toString());
         }
         return "success";
+    }
+
+    //不暴露HttpServletResponse这样的j2ee接口
+    @RequestMapping(value = "/downloadPoiExecl",produces="text/html;charset=UTF-8", method = {RequestMethod.GET,RequestMethod.POST})
+    public ResponseEntity<byte[]> download() throws IOException {
+        HttpHeaders headers = new HttpHeaders();
+        headers.setContentType(MediaType.APPLICATION_OCTET_STREAM);
+        headers.setContentDispositionFormData("attachment", "common.xls");
+        //我们需要拿到准确的文件路径，一般是罗列给前端进行选择，选择好后就去文件服务器拿嘛
+        File file = new File("E://工单信息表.xls");
+        return new ResponseEntity<byte[]>(FileUtils.readFileToByteArray(file),
+                headers, HttpStatus.CREATED);
     }
 }
