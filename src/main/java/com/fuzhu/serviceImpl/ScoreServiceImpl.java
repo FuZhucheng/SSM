@@ -77,9 +77,7 @@ public class ScoreServiceImpl implements ScoreService {
             }
         } else {
             System.out.println("排行榜小于20人就直接丢进缓存    :");
-            if (userFind != null) {
-                jedisClient.zadd("Toptest", (double) user.getScore(), user);
-            }
+            jedisClient.zadd("Toptest", (double) user.getScore(), user);
             System.out.println("user   " + userFind);
         }
     }
