@@ -1,6 +1,6 @@
-һ����ʹ��IDEA���ߵ��룬open��
-�����������ݿ��ļ���
-	����һƪ������ssm+redis.sql--δ���ư汾���ڶ�ƪ�������������ݿ�汾ssm+redis+lucene.sql������ʵ�������ư汾���ɣ��Ͼ����¼��ݣ���
-	2017.5.28�����ݿ�汾�������ڱ����Ĳ������ݡ�
-�����޸Ĺ����е����ݿ����롣
-�ġ�����redisǰ������Ȱ�װ���ú�redis��
+一、请使用IDEA工具导入，open。
+二、导入数据库文件。
+	（第一篇博客是ssm+redis.sql--未完善版本，第二篇博客是完善数据库版本ssm+redis+lucene.sql）（其实导入完善版本即可，毕竟往下兼容！）
+	2017.5.28的数据库版本就是用于报表的测试数据。
+三、修改工程中的数据库密码。
+四、体验redis前请务必先安装配置好redis。test
